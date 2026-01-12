@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio | Elgin Al-wafi</title>
+
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css" />
+
+        <!-- Glightbox CSS -->
+        <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css" />
+
+        <!-- AOS CSS -->
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+        <!-- Devicons CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/icons.css" />
+    </head>
+    <body>
+        <!-- Start Navbar -->
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <i class="fas fa-code"></i>
+                    <h1 class="fw-bold navbar-brand">WAFLEY</h1>
+                </a>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="#hero" class="scrollto">Beranda</a></li>
+                        <li><a href="#about" class="scrollto">Tentang</a></li>
+                        <li><a href="#services" class="scrollto">Services</a></li>
+                        <li><a href="#portfolio" class="scrollto">Portfolio</a></li>
+                        <li><a href="#contact" class="scrollto">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- .navbar -->
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            </div>
+        </header>
+        <!-- End Navbar -->
+
+        <!-- Start Hero -->
+        <section id="hero">
+            <img
+                src="assets/images/hero.png"
+                alt="Hero Profile"
+                width="200"
+                data-aos="zoom-in-up"
+                data-aos-delay="600"
+            />
+            <h1 class="hero-title" data-aos="zoom-in-up">ELGIN AL-WAFI DAULIYAH</h1>
+            <p class="lead" data-aos="zoom-in-up">Freelancer | Web Developer | UI/UX Designer</p>
+
+            <a
+                href="#contact"
+                class="btn btn-primary scrollto"
+                data-aos="fade-out"
+                data-aos-delay="900"
+            >
+                Hubungi Saya
+            </a>
+        </section>
+        <!-- End Hero -->
+
+        <!-- Start About -->
+        <section id="about">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="rgb(var(--bg-secondary-rbg), 0.6)"
+                    fill-opacity="1"
+                    d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,213.3C672,224,768,192,864,154.7C960,117,1056,75,1152,96C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+                ></path>
+            </svg>
+
+            <div class="container">
+                <div class="section-title" data-aos="fade-down">
+                    <h2>Tentang Saya</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="card" data-aos="zoom-in-up" data-aos-duration="100">
+                            <div class="card-body overflow-hidden">
+                                <p data-aos="zoom-in-down" data-aos-delay="300">
+                                    Saya terbiasa mengembangkan website dari tahap perancangan
+                                    UI/UX, slicing design, hingga implementasi backend dan REST API.
+                                    Terbuka untuk proyek freelance maupun kolaborasi tim.
+                                </p>
+                                <div class="row" data-aos="fade-right" data-aos-delay="300">
+                                    <div class="col-12">
+                                        <ul>
+                                            <li>
+                                                <i class="bi bi-chevron-right"></i>
+                                                <strong>Peran:</strong>
+                                                <span>
+                                                    Fullstack Web/Mobile Developer & UI/UX Designer
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <i class="bi bi-chevron-right"></i>
+                                                <strong>Pengalaman:</strong>
+                                                <span>2 Tahun</span>
+                                            </li>
+                                            <li>
+                                                <i class="bi bi-chevron-right"></i>
+                                                <strong>Domisili:</strong>
+                                                <span>Subang Jawa Barat, Indonesia</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12" data-aos="fade-out" data-aos-delay="300">
+                                        <a href="#contact" class="btn btn-primary scrollto">
+                                            Hubungi Saya
+                                        </a>
+                                        <a
+                                            href="assets/files/CV.pdf"
+                                            class="btn btn-outline-primary"
+                                            download="CV.pdf"
+                                        >
+                                            Download CV
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack col-12 mt-3 py-3">
+                            <div class="section-title" data-aos="fade-down">
+                                <h6>Tech Stack</h6>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12 icons" data-aos="fade-left">
+                                    <i class="devicon-html5-plain colored"></i>
+                                    <i class="devicon-css3-plain colored"></i>
+                                    <i class="devicon-javascript-plain colored"></i>
+                                    <i class="devicon-bootstrap-plain colored"></i>
+                                    <i class="devicon-tailwindcss-plain colored"></i>
+                                    <i class="devicon-php-plain colored"></i>
+                                    <i class="devicon-laravel-plain colored"></i>
+                                    <i class="devicon-codeigniter-plain colored"></i>
+                                    <i class="devicon-typescript-plain colored"></i>
+                                    <i class="devicon-react-plain colored"></i>
+                                    <i class="devicon-go-plain colored"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 icons" data-aos="fade-left">
+                                    <i class="devicon-mysql-plain colored"></i>
+                                    <i class="devicon-postgresql-plain colored"></i>
+                                    <i class="devicon-mongodb-plain colored"></i>
+                                    <i class="devicon-firebase-plain colored"></i>
+                                    <i class="devicon-redis-plain colored"></i>
+                                    <i class="devicon-git-plain colored"></i>
+                                    <i class="devicon-jira-plain colored"></i>
+                                    <i class="devicon-figma-plain colored"></i>
+                                    <i class="devicon-postman-plain colored"></i>
+                                    <i class="devicon-docker-plain colored"></i>
+                                    <i class="devicon-wordpress-plain colored"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <img
+                            src="assets/images/about.jpg"
+                            alt="About Profile"
+                            class="img-fluid rounded-3 border border-primary shadow-primary"
+                            data-aos="zoom-in-up"
+                            data-aos-delay="400"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Start Services -->
+        <section id="services">
+            <div class="container">
+                <div class="section-title" data-aos="fade-down">
+                    <h2>Services</h2>
+                    <p>Layanan yang saya tawarkan</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Service 1 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h4>Web Development</h4>
+                            <p>
+                                Pembuatan website dinamis dan modern menggunakan Laravel, Bootstrap,
+                                REST API, dan database.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4>Mobile App Development</h4>
+                            <p>
+                                Pengembangan aplikasi mobile berbasis React Native dengan integrasi
+                                REST API.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-layout-text-window-reverse"></i>
+                            </div>
+                            <h4>UI / UX Design</h4>
+                            <p>
+                                Desain antarmuka aplikasi dan website menggunakan Figma yang fokus
+                                pada user experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-server"></i>
+                            </div>
+                            <h4>Backend & API</h4>
+                            <p>
+                                Pembuatan backend, REST API, autentikasi, dan manajemen database
+                                MySQL / PostgreSQL.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-kanban"></i>
+                            </div>
+                            <h4>CMS Development</h4>
+                            <p>
+                                Pengembangan CMS untuk mengelola konten website seperti portfolio,
+                                artikel, dan produk.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="service-card h-100">
+                            <div class="icon">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h4>Maintenance & Support</h4>
+                            <p>
+                                Maintenance website, perbaikan bug, dan optimasi performa aplikasi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services -->
+
+        <!-- Start Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="section-title" data-aos="fade-down">
+                    <h2>Portfolio</h2>
+                    <p>Beberapa project yang pernah saya kerjakan</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Portfolio Item -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                        <div class="card portfolio-item h-100">
+                            <img
+                                src="assets/images/portfolio/project-1.png"
+                                class="card-img-top"
+                                alt="Project 1"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">CMS Portfolio</h5>
+                                <p class="card-text">
+                                    CMS Portfolio untuk mengelola konten website secara dinamis
+                                    seperti project, profile, dan informasi personal.
+                                </p>
+
+                                <span class="badge bg-danger">Laravel</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-success">MySQL</span>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <a
+                                    href="assets/images/portfolio/project-1.png"
+                                    class="btn btn-sm btn-outline-primary glightbox"
+                                    data-gallery="portfolio"
+                                >
+                                    Preview
+                                </a>
+                                <a
+                                    href="https://github.com/wafley/cms-portfolio"
+                                    target="_blank"
+                                    class="btn btn-sm btn-primary"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="card portfolio-item h-100">
+                            <img
+                                src="assets/images/portfolio/project-2.png"
+                                class="card-img-top"
+                                alt="Project 2"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Bubble JJ</h5>
+                                <p class="card-text">
+                                    Website Bubble JJ adalah platform yang menyediakan layanan
+                                    terkait konten kreatif, terutama seputar bubble foto dan tren
+                                    jedag-jedug TikTok.
+                                </p>
+
+                                <span class="badge bg-danger">Laravel</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-success">MySQL</span>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <a
+                                    href="assets/images/portfolio/project-2.png"
+                                    class="btn btn-sm btn-outline-primary glightbox"
+                                    data-gallery="portfolio"
+                                >
+                                    Preview
+                                </a>
+                                <a
+                                    href="https://github.com/wafley/bubble-jj"
+                                    target="_blank"
+                                    class="btn btn-sm btn-primary"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="card portfolio-item h-100">
+                            <img
+                                src="assets/images/portfolio/project-3.png"
+                                class="card-img-top"
+                                alt="Project 3"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Yanawifi App</h5>
+                                <p class="card-text">
+                                    Aplikasi Mobile layanan internet untuk menampilkan paket,
+                                    layanan, dan kontak pelanggan.
+                                </p>
+
+                                <span class="badge bg-info">React Native</span>
+                                <span class="badge bg-danger">REST API</span>
+                                <span class="badge bg-success">PosgreeSQL</span>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <a
+                                    href="assets/images/portfolio/project-3.png"
+                                    class="btn btn-sm btn-outline-primary glightbox"
+                                    data-gallery="portfolio"
+                                >
+                                    Preview
+                                </a>
+                                <a
+                                    href="https://github.com/wafley/yanawifi"
+                                    target="_blank"
+                                    class="btn btn-sm btn-primary"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio -->
+
+        <!-- Start Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-title" data-aos="fade-down">
+                    <h2>Kontak</h2>
+                </div>
+                <div class="row" data-aos="zoom-in-down">
+                    <div class="col-md-4">
+                        <div class="info-item d-flex justify-content-center">
+                            <i class="bx bx-envelope"></i>
+                            <div>
+                                <h4>Email:</h4>
+                                <p>alwafielgin@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-item d-flex justify-content-center">
+                            <i class="bx bx-phone"></i>
+                            <div>
+                                <h4>Nomor Telepon:</h4>
+                                <p>+62 823-2054-9874</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-item d-flex justify-content-center">
+                            <i class="bx bx-current-location"></i>
+                            <div>
+                                <h4>Alamat:</h4>
+                                <p>BTN. Griya Cinangsi Asri Subang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5" data-aos="fade-up">
+                    <div class="col-md-8 col-sm-10 form-group mx-auto card p-4">
+                        <div class="row">
+                            <div class="mb-3 col-6">
+                                <label for="name" class="form-label">Nama Anda:</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Masukkan nama anda"
+                                />
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="email" class="form-label">Email Anda:</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Masukkan email anda"
+                                />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subjek:</label>
+                            <input
+                                type="subject"
+                                class="form-control"
+                                id="subject"
+                                placeholder="Masukkan subjek"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label for="messages" class="form-label">Pesan:</label>
+                            <textarea
+                                class="form-control"
+                                rows="4"
+                                id="messages"
+                                placeholder="Masukkan pesan yang ingin disampaikan"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact -->
+
+        <!-- Start Footer -->
+        <footer id="footer">
+            <div class="container">
+                <h3>Elgin Al-wafi</h3>
+                <p>Mahasiswa Universitas Subang dengan pengalaman membuat beberapa UI/UX Web.</p>
+                <div class="social-links">
+                    <a href="www.linkedin.com/in/aalwf" class="linkedin">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://facebook.com/elgin.elgin.3114" class="facebook">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com/_si.alwf" class="instagram">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="https://github.com/aalwf" class="github">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://smkn-2sbg.sch.id/" class="website">
+                        <i class="bx bx-globe"></i>
+                    </a>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright <strong><span>2026</span></strong>
+                    . All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="https://instagram.com/_si.alwf">Aalwf</a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- Start Loading -->
+        <div id="preloader">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <!-- End Loading -->
+
+        <!-- Start Particles -->
+        <div id="particles-js"></div>
+        <!-- End Particles -->
+
+        <!-- Bootstrap JS -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- JQuery JS -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+
+        <!-- Glightbox JS -->
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+        <!-- Particles JS -->
+        <script src="assets/vendor/particles.js/particles.js"></script>
+
+        <!-- AOS JS -->
+        <script src="assets/vendor/aos/aos.js"></script>
+
+        <!-- JS Files -->
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/download.js"></script>
+    </body>
+</html>
